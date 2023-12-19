@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,348 +13,391 @@
 </head>
 
 <body>
-    <div class="container">
 
+    <!-- Top bar -->
 
-            <!-- Navbar -->
-            <nav>
-                <div class="audio-video">
-                   <div class="button">
-                        <div class="icon">
-                            <i class="fa fa-microphone"></i>
-                        </div>
-                        <div>
-                            Mute
-                        </div>
-                   </div>
-                   <div class="button">
-                        <div class="icon">
-                            <i class="fa fa-video-camera"></i>
-                        </div>
-                        <div>
-                            Stop Video
-                        </div>
-                   </div>
-                </div>
+    <div id="top-bar">
+        <div>
+            <div>
+                <i class="fa fa-th"></i>
+            </div>
+            <div>
+                Speaker view
+            </div>
+        </div>
 
-                <div class="opzioni">
-                    <ul>
-                        <li>
-                            <div class="icon">
-                                <i class="fa fa-user-plus"></i>
-                            </div>
-                            <div>Invite</div>
-                        </li>
-
-                        <li>
-                            <div class="icon">
-                                <i class="fa fa-users"></i>
-                            </div>
-                            <div>Manage</div>
-                        </li>
-
-                        <li>
-                            <div class="icon">
-                                <i class="fa fa-bar-chart"></i>
-                            </div>
-                            <div>Polling</div>
-                        </li>
-
-                        <li class="button share">
-                            <div class="icon">
-                                <i class="fa fa-share-square-o"></i>
-                            </div>
-                            <div>Share Screen</div>
-                        </li>
-
-                        <li>
-                            <div class="icon">
-                                <i class="fa fa-comment"></i>
-                            </div>
-                            <div>Chat</div>
-                        </li>
-
-                        <li>
-                            <div class="icon">
-                                <i class="fa fa-dot-circle-o"></i>
-                            </div>
-                            <div>Record</div>
-                        </li>
-
-                        <li>
-                            <div class="icon"><i class="fa fa-th-large" aria-hidden="true"></i></div>
-                            <div>Breakout Rooms</div>
-                        </li>
-
-                        <li>
-                            <div class="icon">
-                                <i class="fa fa-ellipsis-h"></i>
-                            </div>
-                            <div>More</div>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="end">
-                    End meeting
-                </div>
-            </nav>
-
+        <div>
+            <i class="fa fa-arrows-alt"></i>
+        </div>
     </div>
 
-            <!-- Sezione webcam -->
-            <main id="webcams">
+    <!-- Bottom bar -->
+    <nav>
+        <div class="audio-video">
+            <div class="button">
+                <div class="icon">
+                    <i class="fa fa-microphone"></i>
+                </div>
+                <div>
+                    Mute
+                </div>
+            </div>
+            <div class="button">
+                <div class="icon">
+                    <i class="fa fa-video-camera"></i>
+                </div>
+                <div>
+                    Stop Video
+                </div>
+            </div>
+        </div>
 
-
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
+        <div class="opzioni">
+            <ul>
+                <li>
+                    <div class="icon">
+                        <i class="fa fa-user-plus"></i>
                     </div>
+                    <div>Invite</div>
+                </li>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
+                <li>
+                    <div class="icon">
+                        <i class="fa fa-users"></i>
                     </div>
+                    <div>Manage</div>
+                </li>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
+                <li>
+                    <div class="icon">
+                        <i class="fa fa-bar-chart"></i>
                     </div>
+                    <div>Polling</div>
+                </li>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
+                <li class="button share">
+                    <div class="icon">
+                        <i class="fa fa-share-square-o"></i>
                     </div>
+                    <div>Share Screen</div>
+                </li>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
+                <li>
+                    <div class="icon">
+                        <i class="fa fa-comment"></i>
                     </div>
+                    <div>Chat</div>
+                </li>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
+                <li>
+                    <div class="icon">
+                        <i class="fa fa-dot-circle-o"></i>
                     </div>
+                    <div>Record</div>
+                </li>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
+                <li>
+                    <div class="icon"><i class="fa fa-th-large" aria-hidden="true"></i></div>
+                    <div>Breakout Rooms</div>
+                </li>
+
+                <li>
+                    <div class="icon">
+                        <i class="fa fa-ellipsis-h"></i>
                     </div>
+                    <div>More</div>
+                </li>
+            </ul>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="end">
+            End meeting
+        </div>
+    </nav>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+    <!-- Sezione webcam -->
+    <main id="webcams">
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-                    <div class="webcam">
-                        <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY" alt="">
-                        <div class="tag">
-                        <i class="fa fa-microphone-slash"></i>Pinco Pallo
-                        </div>    
-                    </div>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
-            </main>
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
 
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
+
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
+
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
+
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
+
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
+
+        <div class="webcam">
+            <img src="https://fastly.picsum.photos/id/381/255/150.jpg?hmac=pqKOcyKoJJLZFrsqKnbPSC3r7WWPh_b3Xj8Z7Usa3fY"
+                alt="">
+            <div class="tag">
+                <i class="fa fa-microphone-slash"></i>Pinco Pallo
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

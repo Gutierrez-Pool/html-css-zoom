@@ -12,6 +12,81 @@ body {
     background-color: black;
 }
 
+
+/* Top bar */
+
+#top-bar {
+    position: fixed;
+    right: 5px;
+    top: 0;
+    z-index: 10;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    gap: 5px;
+
+    color: white;
+
+    width: 100%;
+    height: 60px;
+
+    background-color: black;
+}
+
+#top-bar > div {
+    display: flex;
+
+    padding: 5px;
+    gap: 5px;
+
+    background-color: #4a4a4a;
+    border-radius: 5px;
+
+}
+
+/* Fine top bar */
+
+
+
+/* Main */
+
+#webcams {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 60px;
+
+    padding-bottom: calc(85px + 30px);
+    gap: 15px 6px;
+
+
+}
+
+.webcam {
+    position: relative;
+}
+
+.tag {
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+
+    padding: 5px 10px;
+    gap: 5px;
+
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/* FIne main */
+
+
+
 /* navbar */
 
 nav {
@@ -78,38 +153,3 @@ nav .button::after {
     padding: 30px 35px;
 }
 /* fine navbar */
-
-
-
-/* Main */
-
-#webcams {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-    padding-top: 90px;
-    padding-inline: 80px;
-
-    gap: 15px 6px;
-}
-
-.webcam {
-    position: relative;
-}
-
-.tag {
-    display: flex;
-    position: absolute;
-    bottom: 0px;
-
-    padding: 5px 10px;
-    gap: 5px;
-
-    color: white;
-
-    background-color: rgba(0, 0, 0, 0.4);
-}
-/* FIne main */
